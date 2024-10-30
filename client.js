@@ -84,6 +84,7 @@ async function updateBook() {
   }
 }
 
+// Get all books
 async function viewBooks() {
   try {
       const response = await axios.get("http://localhost:3000/books");
@@ -93,7 +94,7 @@ async function viewBooks() {
   }
 }
 
-// Get by ID
+// Get books by ID
 async function viewBookById() {
   const id = prompt("Enter the book ID to view: ");
 
@@ -105,7 +106,7 @@ async function viewBookById() {
   }
 }
 
-// Get by genre
+// Get books by genre
 async function viewBooksByGenre() {
   const genre = prompt("Enter the genre to view books: ");
 
@@ -117,7 +118,7 @@ async function viewBooksByGenre() {
   }
 }
 
-// Delete
+// Delete a book
 async function deleteBook() {
   const id = prompt("Enter the book ID to delete: ");
 
