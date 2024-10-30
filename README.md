@@ -27,7 +27,7 @@ npm start
 ```
 
 # Endpoints
-### Create a New Book Review
+### 1. Create a New Book Review
 * URL: /create-books
 * Method: POST
 * Body
@@ -41,24 +41,24 @@ npm start
 
 ```
 
-### Read or Retrieve Books by Books
+### 2. Read or Retrieve Books by Books
 * URL: /books
 * Method: GET
 * Response: An array of all book records in the database.
 
-### Read or Retrieve All Books
+### 3. Read or Retrieve All Books
 * URL: /books/:id
 * Method: GET
 * Params: id (Book ID)
 * Response: Book data for the specified ID.
 
-### Read Retrieve Books by Genre
+### 4. Read Retrieve Books by Genre
 * URL: /books/genre/:genre
 * Method: GET
 * Params: genre (e.g., fiction or non-fiction)
 * Response: An array of books that match the specified genre.
 
-### Update Book
+### 5. Update Book
 * URL: /books/:id
 * Method: PUT
 * Params: id (Book ID)
@@ -73,7 +73,7 @@ npm start
 ```
 * Response: Displays a success message with the updated book details.
 
-### Delete Book
+### 6. Delete Book
 * URL: /books/:id
 * Method: DELETE
 * Params: id (Book ID)
