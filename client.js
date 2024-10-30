@@ -8,9 +8,9 @@ async function main() {
       console.log('1. Create Book');
       console.log('2. Update Book');
       console.log('3. View All Books');
-      console.log('4. View Book by ID'); // Tambahkan pilihan untuk get by ID
-      console.log('5. View Book by Genre'); // Tambahkan pilihan untuk get by Genre
-      console.log('6. Delete Book'); // Update pilihan delete
+      console.log('4. View Book by ID'); 
+      console.log('5. View Book by Genre'); 
+      console.log('6. Delete Book'); 
       console.log('7. Exit');
 
       const choice = prompt('Choose an option: ');
@@ -26,13 +26,13 @@ async function main() {
               await viewBooks();
               break;
           case '4':
-              await viewBookById(); // Panggil fungsi view by ID
+              await viewBookById();
               break;
           case '5':
-              await viewBooksByGenre(); // Panggil fungsi view by Genre
+              await viewBooksByGenre();
               break;
           case '6':
-              await deleteBook(); // Panggil fungsi delete
+              await deleteBook(); 
               break;
           case '7':
               console.log('Exiting...');
@@ -43,7 +43,7 @@ async function main() {
   }
 }
 
-// Fungsi yang sudah ada
+// Create book
 async function createBook() {
   const title = prompt("Enter the book title: ");
   const author = prompt("Enter the author's name: ");
@@ -63,6 +63,7 @@ async function createBook() {
   }
 }
 
+// Post or Update book 
 async function updateBook() {
   const id = prompt("Enter the book ID to update: ");
   const title = prompt("Enter the new book title: ");
@@ -92,7 +93,7 @@ async function viewBooks() {
   }
 }
 
-// Fungsi untuk mendapatkan buku berdasarkan ID
+// Get by ID
 async function viewBookById() {
   const id = prompt("Enter the book ID to view: ");
 
@@ -104,7 +105,7 @@ async function viewBookById() {
   }
 }
 
-// Fungsi untuk mendapatkan buku berdasarkan genre
+// Get by genre
 async function viewBooksByGenre() {
   const genre = prompt("Enter the genre to view books: ");
 
@@ -116,7 +117,7 @@ async function viewBooksByGenre() {
   }
 }
 
-// Fungsi untuk menghapus buku
+// Delete
 async function deleteBook() {
   const id = prompt("Enter the book ID to delete: ");
 
