@@ -17,10 +17,10 @@ This Book Tracker is a backend mini project that allows users to perform CRUD (C
 ```
 npm install
 ```
-3. Database Configuration
-Edit the password in the '.env' file to your root password.
-4. Database Setup
-Create a MySQL database using the syntaxs in the 'books_db.sql' file
+3. Database Configuration <br>
+   Edit the password in the '.env' file to your root password.
+4. Database Setup <br>
+   Create a MySQL database using the syntaxs in 'books_db.sql'
 5. Start the server
 ```
 npm start
