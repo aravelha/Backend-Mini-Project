@@ -1,0 +1,20 @@
+{
+  "name": "2310512074-mini-project-rahelveraldahutahaean-books-tracker",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Rahel Veralda Hutahaean",
+  "license": "ISC",
+  "description": "Mini Project Backend KSM Android - Reading List atau Book Tracker",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  }
+}
