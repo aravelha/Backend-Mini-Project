@@ -5,12 +5,12 @@ const prompt = promptSync();
 
 async function main() {
   while (true) {
-      console.log('1. Create Book');
-      console.log('2. Update Book');
+      console.log('1. Create a Book');
+      console.log('2. Update a Book');
       console.log('3. View All Books');
-      console.log('4. View Book by ID'); 
-      console.log('5. View Book by Genre'); 
-      console.log('6. Delete Book'); 
+      console.log('4. View a Book by ID'); 
+      console.log('5. View Books by Genre'); 
+      console.log('6. Delete a Book'); 
       console.log('7. Exit');
 
       const choice = prompt('Choose an option: ');
