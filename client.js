@@ -94,7 +94,7 @@ async function viewBooks() {
   }
 }
 
-// Get books by ID
+// Get book by ID
 async function viewBookById() {
   const id = prompt("Enter the book ID to view: ");
 
